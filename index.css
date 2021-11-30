@@ -1,0 +1,126 @@
+* {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to bottom right, black, rgb(48, 54, 44), black);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+h1, h4 {
+    text-align: center;
+    color:rgb(212, 214, 186);
+    
+}
+
+.calc-container {
+    background-color: #1B1C15;
+    box-shadow: 5px 30px 85px rgb(212, 214, 186);    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-self: center;
+    border-radius: 8px;
+    font-size: large;
+    max-width: 300px;
+    max-height: 574px;
+}
+
+.display-container {
+    background-color: #34331D;
+    display: flex;
+    flex-direction: row-reverse;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: #E5E2D7;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-right: 15px;
+    font-size: 40px;
+}
+
+.button-container {
+    margin: 15px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    max-width: 300px;
+}
+
+.btn {
+    background-color: #242419;
+    font-size: larger;
+    padding: 15px 20px;
+    border: none;
+    margin: 5px;
+    color: #E5E2D7;
+    border-radius: 100px;
+}
+
+.btn:hover {
+    background-color: #363626;
+  }
+
+#div-btn:hover {
+    color:rgb(212, 214, 186)
+}
+#multi-btn:hover {
+    color:rgb(212, 214, 186)
+}
+#subs-btn:hover {
+    color:rgb(212, 214, 186)
+}
+#add-btn:hover {
+    color:rgb(212, 214, 186)
+}
+
+.btn:active {
+    transform: scale(0.98);
+    /* Scaling button to 0.98 to its original size */
+    box-shadow: 3px 2px 12px 1px rgba(0, 0, 0, 0.397);
+    /* Lowering the shadow */
+}
+
+.row_a,
+.row-b, 
+.row-c, 
+.row-d,
+.row-e {
+    display:flex;
+    flex-grow: 1;
+    justify-content: space-evenly;
+}
+
+.row-b, 
+.row-c, 
+.row-d {
+    display:flex;
+    flex-direction: row-reverse;
+}
+
+#AC_btn {
+    width: 185px;
+    background-color: #AFF0D3;
+    color: #242419
+} 
+
+#zero_btn {
+    width: 115px;
+}
+
+#div-btn,
+#multi-btn,
+#subs-btn,
+#add-btn {
+    background-color: #ACAD8A;
+    color: #242419;
+}
+
+#eq-btn {
+    background-color: #e6e684;
+    color: #242419;
+}

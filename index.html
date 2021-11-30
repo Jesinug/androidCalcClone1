@@ -1,0 +1,52 @@
+><!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <script></script>
+    <title>androidCalcClone</title>
+  </head>
+
+  <body>
+    <div name="calc-container" class="calc-container">
+      <div name="display-container" class="display-container">innerHTML</div>
+
+      <div name="button-container" class="button-container">
+        <div class="row-a">
+          <button class="btn" id="AC_btn">AC</button>
+          <button class="btn" id="div-btn">÷</button>
+        </div>
+        <div class="row-b">
+          <button class="btn" id="multi-btn">x</button>
+          <button class="btn">9</button>
+          <button class="btn">8</button>
+          <button class="btn">7</button>
+        </div>
+        <div class="row-c">
+          <button class="btn" id="subs-btn">-</button>
+          <button class="btn">6</button>
+          <button class="btn">5</button>
+          <button class="btn">4</button>
+        </div>
+        <div class="row-d">
+          <button class="btn" id="add-btn">+</button>
+          <button class="btn">3</button>
+          <button class="btn">2</button>
+          <button class="btn">1</button>
+        </div>
+        <div class="row-e">
+          <button class="btn" id="zero_btn">0</button>
+          <button class="btn">⌫</button>
+          <button class="btn" id="eq-btn">=</button>
+        </div>
+      </div>
+    </div>
+    <script>
+        const alertEx = document.querySelector('.btn')
+        alertEx.addEventListener('click', function() { alert("Hey there"); 
+    });
+    </script>
+  </body>
+</html>
