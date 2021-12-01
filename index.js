@@ -1,8 +1,14 @@
-/*const alertEx = document.querySelector('.btn')
-alertEx.addEventListener('click', function(event) {
-    alert(`You have clicked the ${event.target.innerText} number`);
-});
-*/
+const display = document.querySelector('.display-container');
+
+const buttons = document.querySelectorAll('.btn');
+
+for(i = 0; i < buttons.length; i++) {
+    buttons[i].addEventListener('click', function(event) {
+        // display.innerHTML = buttons.value
+        alert(event.target.innerText);
+        // alert(buttons[i].innerHTML)
+    });
+}
 
 /*
 const display = document.querySelector('.display-container');
